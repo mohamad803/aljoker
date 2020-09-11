@@ -2766,35 +2766,23 @@ end
 
 
 function speedon()
-gg.clearResults()
-gg.setVisible(false)
-gg.setRanges(gg.REGION_C_DATA|gg.REGION_CODE_APP)
-gg.searchNumber("-6.03221444e26;-1.3078764e28;-3.74440972e28;-1.86389771e-20;-1.11445016e28;-9.39921508e20;-1.8331477e27:33", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("-1.86389771e-20", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("0", gg.TYPE_FLOAT)
-gg.clearResults()
+gg.clearResults()                                
+gg.setRanges(gg.REGION_CODE_APP)                                 
+gg.searchNumber('-1292522026557240760', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)                                   --USHACKS0
+gg.getResults(69)                                 
+gg.editAll('-1292522029219577856', gg.TYPE_QWORD)                                  
+gg.clearResults()                                 
 gg.toast('Flash Speed Activated!')
 end
 
+
 function speedof()
-gg.clearResults()
-gg.setVisible(false)
-gg.setRanges(gg.REGION_C_DATA|gg.REGION_CODE_APP)
-gg.searchNumber("-6.03221444e26;-1.3078764e28;-3.74440972e28;0;-1.11445016e28;-9.39921508e20;-1.8331477e27:33", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("-1.86389771e-20", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.clearResults()
-gg.setVisible(false)
-gg.setRanges(gg.REGION_C_DATA|gg.REGION_CODE_APP)
-gg.searchNumber("-6.03221444e26;-1.3078764e28;-3.74440972e28;0;-1.11445016e28;-9.39921508e20;-1.8331477e27:33", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("-1.86389771e-20", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.clearResults()
+gg.clearResults()                                  
+gg.setRanges(gg.REGION_CODE_APP)                                  
+gg.searchNumber('-1292522029219577856', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)                                   --USHACKS0
+gg.getResults(69)                                  
+gg.editAll('-1292522026557240760', gg.TYPE_QWORD)                                
+gg.clearResults()                                
 gg.toast('Flash Speed Deactivated!')
 end
 
