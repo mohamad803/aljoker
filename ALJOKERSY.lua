@@ -2782,7 +2782,13 @@ gg.setRanges(gg.REGION_CODE_APP)
 gg.searchNumber('-1292522029219577856', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)                                   --USHACKS0
 gg.getResults(69)                                  
 gg.editAll('-1292522026557240760', gg.TYPE_QWORD)                                
-gg.clearResults()                                
+gg.clearResults()          
+gg.clearResults()                                  
+gg.setRanges(gg.REGION_CODE_APP)                                  
+gg.searchNumber('-1292522029219577856', gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)                                   --USHACKS0
+gg.getResults(69)                                  
+gg.editAll('-1292522026557240760', gg.TYPE_QWORD)                                
+gg.clearResults()                       
 gg.toast('Flash Speed Deactivated!')
 end
 
