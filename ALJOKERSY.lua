@@ -95,21 +95,18 @@ end
 
 
 function DATAONOFF()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_DATA | gg.REGION_CODE_APP)
-gg.searchNumber("1.1754945e-37", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineAddress("91C", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(30)
-gg.editAll("0", gg.TYPE_FLOAT)
-gg.toast("📵 ɪɴᴛᴇʀɴᴇᴛ ᴅɪsᴄᴏɴɴᴇᴄᴛᴇᴅ 📵")
-gg.sleep(5000)
-gg.searchNumber("0", gg.TYPE_FLOAT)
-gg.refineAddress("91C", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(30)
-gg.editAll("1.1754945e-37", gg.TYPE_FLOAT)
+gg.clearResults()                   
+gg.setRanges(gg.REGION_CODE_APP)                 
+gg.searchNumber('220676386071773185', gg.TYPE_QWORD)                  
+gg.getResults(69)                 
+gg.editAll('220676386036121600', gg.TYPE_QWORD)          
+gg.toast("📵 ɪɴᴛᴇʀɴᴇᴛ ᴅɪsᴄᴏɴɴᴇᴄᴛᴇᴅ 📵")        
+gg.sleep(6000)                 
+gg.editAll('220676386071773185', gg.TYPE_QWORD)                 
 gg.clearResults()
 gg.toast("✅ ɪɴᴛᴇʀɴᴇᴛ ᴄᴏɴɴᴇᴄᴛᴇᴅ ✅")
 end
+
 
 
 
