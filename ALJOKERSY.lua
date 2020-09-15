@@ -240,59 +240,59 @@ function AAL3()
           gg.clearResults()
     gg.setRanges(gg.REGION_C_ALLOC)
     gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(50000)
-    for i, v in ipairs(xSenioRxM10x) do
-    xSenioRxM10x[i].flags = gg.TYPE_DWORD
-    xSenioRxM10x[i].value = '0'
-    xSenioRxM10x[i].freeze = true
+    local xJOKER10x = gg.getResults(50000)
+    for i, v in ipairs(xJOKER10x) do
+    xJOKER10x[i].flags = gg.TYPE_DWORD
+    xJOKER10x[i].value = '0'
+    xJOKER10x[i].freeze = true
     end
-    gg.addListItems(xSenioRxM10x)
+    gg.addListItems(xJOKER10x)
     gg.clearResults()
     gg.setRanges(gg.REGION_C_ALLOC)
     gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(50000)
-    for i, v in ipairs(xSenioRxM10x) do
-    xSenioRxM10x[i].flags = gg.TYPE_QWORD
-    xSenioRxM10x[i].value = '0'
-    xSenioRxM10x[i].freeze = true
+    local xJOKER10x = gg.getResults(50000)
+    for i, v in ipairs(xJOKER10x) do
+    xJOKER10x[i].flags = gg.TYPE_QWORD
+    xJOKER10x[i].value = '0'
+    xJOKER10x[i].freeze = true
     end
     gg.clearResults()
     gg.setRanges(gg.REGION_C_ALLOC)
     gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(50000)
-    for i, v in ipairs(xSenioRxM10x) do
-    xSenioRxM10x[i].flags = gg.TYPE_DWORD
-    xSenioRxM10x[i].value = '0'
-    xSenioRxM10x[i].freeze = true
+    local xJOKER10x = gg.getResults(50000)
+    for i, v in ipairs(xJOKER10x) do
+    xJOKER10x[i].flags = gg.TYPE_DWORD
+    xJOKER10x[i].value = '0'
+    xJOKER10x[i].freeze = true
     end
-    gg.addListItems(xSenioRxM10x)
+    gg.addListItems(xJOKER10x)
     gg.clearResults()
     gg.setRanges(gg.REGION_C_ALLOC)
     gg.searchNumber("12547", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(50000)
-    for i, v in ipairs(xSenioRxM10x) do
-    xSenioRxM10x[i].flags = gg.TYPE_DWORD
-    xSenioRxM10x[i].value = '0'
-    xSenioRxM10x[i].freeze = true
+    local xJOKER10x = gg.getResults(50000)
+    for i, v in ipairs(xJOKER10x) do
+    xJOKER10x[i].flags = gg.TYPE_DWORD
+    xJOKER10x[i].value = '0'
+    xJOKER10x[i].freeze = true
     end
-    gg.addListItems(xSenioRxM10x)
+    gg.addListItems(xJOKER10x)
     gg.clearResults()
     gg.setRanges(gg.REGION_C_ALLOC)
     gg.searchNumber("32,039", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(50000)
-    for i, v in ipairs(xSenioRxM10x) do
-    xSenioRxM10x[i].flags = gg.TYPE_DWORD
-    xSenioRxM10x[i].value = '0'
-    xSenioRxM10x[i].freeze = true
+    local xJOKER10x = gg.getResults(50000)
+    for i, v in ipairs(xJOKER10x) do
+    xJOKER10x[i].flags = gg.TYPE_DWORD
+    xJOKER10x[i].value = '0'
+    xJOKER10x[i].freeze = true
     end
     gg.clearResults()
     gg.setRanges(gg.REGION_C_ALLOC)
     gg.searchNumber("16,712,197", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(50000)
-    for i, v in ipairs(xSenioRxM10x) do
-    xSenioRxM10x[i].flags = gg.TYPE_DWORD
-    xSenioRxM10x[i].value = '0'
-    xSenioRxM10x[i].freeze = true
+    local xJOKER10x = gg.getResults(50000)
+    for i, v in ipairs(xJOKER10x) do
+    xJOKER10x[i].flags = gg.TYPE_DWORD
+    xJOKER10x[i].value = '0'
+    xJOKER10x[i].freeze = true
     end
     gg.clearResults()
     gg.clearResults()
@@ -315,13 +315,13 @@ function AAL3()
     gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.refineNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(140701)
-    for i, v in ipairs(xSenioRxM10x) do
-        xSenioRxM10x[i].flags = gg.TYPE_DWORD
-        xSenioRxM10x[i].value = '0'
-        xSenioRxM10x[i].freeze = true
+    local xJOKER10x = gg.getResults(140701)
+    for i, v in ipairs(xJOKER10x) do
+        xJOKER10x[i].flags = gg.TYPE_DWORD
+        xJOKER10x[i].value = '0'
+        xJOKER10x[i].freeze = true
     end
-    gg.addListItems(xSenioRxM10x)
+    gg.addListItems(xJOKER10x)
     gg.clearResults()
     gg.setVisible(false)
     gg.clearResults()
@@ -329,11 +329,11 @@ function AAL3()
     gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.refineNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(140701)
-    for i, v in ipairs(xSenioRxM10x) do
-        xSenioRxM10x[i].flags = gg.TYPE_QWORD
-        xSenioRxM10x[i].value = '0'
-        xSenioRxM10x[i].freeze = true
+    local xJOKER10x = gg.getResults(140701)
+    for i, v in ipairs(xJOKER10x) do
+        xJOKER10x[i].flags = gg.TYPE_QWORD
+        xJOKER10x[i].value = '0'
+        xJOKER10x[i].freeze = true
     end
     gg.clearResults()
     gg.setVisible(false)
@@ -342,13 +342,13 @@ function AAL3()
     gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.refineNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(140701)
-    for i, v in ipairs(xSenioRxM10x) do
-        xSenioRxM10x[i].flags = gg.TYPE_DWORD
-        xSenioRxM10x[i].value = '0'
-        xSenioRxM10x[i].freeze = true
+    local xJOKER10x = gg.getResults(140701)
+    for i, v in ipairs(xJOKER10x) do
+        xJOKER10x[i].flags = gg.TYPE_DWORD
+        xJOKER10x[i].value = '0'
+        xJOKER10x[i].freeze = true
     end
-    gg.addListItems(xSenioRxM10x)
+    gg.addListItems(xJOKER10x)
     gg.clearResults()
     gg.setVisible(false)
     gg.clearResults()
@@ -356,13 +356,13 @@ function AAL3()
     gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.refineNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(140701)
-    for i, v in ipairs(xSenioRxM10x) do
-        xSenioRxM10x[i].flags = gg.TYPE_DWORD
-        xSenioRxM10x[i].value = '0'
-        xSenioRxM10x[i].freeze = true
+    local xJOKER10x = gg.getResults(140701)
+    for i, v in ipairs(xJOKER10x) do
+        xJOKER10x[i].flags = gg.TYPE_DWORD
+        xJOKER10x[i].value = '0'
+        xJOKER10x[i].freeze = true
     end
-    gg.addListItems(xSenioRxM10x)
+    gg.addListItems(xJOKER10x)
     gg.clearResults()
     gg.setVisible(false)
     gg.clearResults()
@@ -370,11 +370,11 @@ function AAL3()
     gg.searchNumber("70658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.searchNumber("70658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.refineNumber("70658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(140701)
-    for i, v in ipairs(xSenioRxM10x) do
-        xSenioRxM10x[i].flags = gg.TYPE_DWORD
-        xSenioRxM10x[i].value = '0'
-        xSenioRxM10x[i].freeze = true
+    local xJOKER10x = gg.getResults(140701)
+    for i, v in ipairs(xJOKER10x) do
+        xJOKER10x[i].flags = gg.TYPE_DWORD
+        xJOKER10x[i].value = '0'
+        xJOKER10x[i].freeze = true
     end
     gg.clearResults()
     gg.setVisible(false)
@@ -383,13 +383,13 @@ function AAL3()
     gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.refineNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(140701)
-    for i, v in ipairs(xSenioRxM10x) do
-        xSenioRxM10x[i].flags = gg.TYPE_DWORD
-        xSenioRxM10x[i].value = '0'
-        xSenioRxM10x[i].freeze = true
+    local xJOKER10x = gg.getResults(140701)
+    for i, v in ipairs(xJOKER10x) do
+        xJOKER10x[i].flags = gg.TYPE_DWORD
+        xJOKER10x[i].value = '0'
+        xJOKER10x[i].freeze = true
     end
-    gg.addListItems(xSenioRxM10x)
+    gg.addListItems(xJOKER10x)
     gg.clearResults()
     gg.setVisible(false)
     gg.clearResults()
@@ -397,11 +397,11 @@ function AAL3()
     gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.refineNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(140701)
-    for i, v in ipairs(xSenioRxM10x) do
-        xSenioRxM10x[i].flags = gg.TYPE_QWORD
-        xSenioRxM10x[i].value = '0'
-        xSenioRxM10x[i].freeze = true
+    local xJOKER10x = gg.getResults(140701)
+    for i, v in ipairs(xJOKER10x) do
+        xJOKER10x[i].flags = gg.TYPE_QWORD
+        xJOKER10x[i].value = '0'
+        xJOKER10x[i].freeze = true
     end
     gg.clearResults()
     gg.setVisible(false)
@@ -410,13 +410,13 @@ function AAL3()
     gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.refineNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(140701)
-    for i, v in ipairs(xSenioRxM10x) do
-        xSenioRxM10x[i].flags = gg.TYPE_DWORD
-        xSenioRxM10x[i].value = '0'
-        xSenioRxM10x[i].freeze = true
+    local xJOKER10x = gg.getResults(140701)
+    for i, v in ipairs(xJOKER10x) do
+        xJOKER10x[i].flags = gg.TYPE_DWORD
+        xJOKER10x[i].value = '0'
+        xJOKER10x[i].freeze = true
     end
-    gg.addListItems(xSenioRxM10x)
+    gg.addListItems(xJOKER10x)
     gg.clearResults()
     gg.setVisible(false)
     gg.clearResults()
@@ -424,13 +424,13 @@ function AAL3()
     gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.refineNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(140701)
-    for i, v in ipairs(xSenioRxM10x) do
-        xSenioRxM10x[i].flags = gg.TYPE_DWORD
-        xSenioRxM10x[i].value = '0'
-        xSenioRxM10x[i].freeze = true
+    local xJOKER10x = gg.getResults(140701)
+    for i, v in ipairs(xJOKER10x) do
+        xJOKER10x[i].flags = gg.TYPE_DWORD
+        xJOKER10x[i].value = '0'
+        xJOKER10x[i].freeze = true
     end
-    gg.addListItems(xSenioRxM10x)
+    gg.addListItems(xJOKER10x)
     gg.clearResults()
     gg.setVisible(false)
     gg.clearResults()
@@ -442,13 +442,13 @@ function AAL3()
     gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.refineNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(140701)
-    for i, v in ipairs(xSenioRxM10x) do
-        xSenioRxM10x[i].flags = gg.TYPE_DWORD
-        xSenioRxM10x[i].value = '0'
-        xSenioRxM10x[i].freeze = true
+    local xJOKER10x = gg.getResults(140701)
+    for i, v in ipairs(xJOKER10x) do
+        xJOKER10x[i].flags = gg.TYPE_DWORD
+        xJOKER10x[i].value = '0'
+        xJOKER10x[i].freeze = true
     end
-    gg.addListItems(xSenioRxM10x)
+    gg.addListItems(xJOKER10x)
     gg.clearResults()
     gg.setVisible(false)
     gg.clearResults()
@@ -456,11 +456,11 @@ function AAL3()
     gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.refineNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(140701)
-    for i, v in ipairs(xSenioRxM10x) do
-        xSenioRxM10x[i].flags = gg.TYPE_QWORD
-        xSenioRxM10x[i].value = '0'
-        xSenioRxM10x[i].freeze = true
+    local xJOKER10x = gg.getResults(140701)
+    for i, v in ipairs(xJOKER10x) do
+        xJOKER10x[i].flags = gg.TYPE_QWORD
+        xJOKER10x[i].value = '0'
+        xJOKER10x[i].freeze = true
     end
     gg.clearResults()
     gg.setVisible(false)
@@ -469,13 +469,13 @@ function AAL3()
     gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.refineNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(140701)
-    for i, v in ipairs(xSenioRxM10x) do
-        xSenioRxM10x[i].flags = gg.TYPE_DWORD
-        xSenioRxM10x[i].value = '0'
-        xSenioRxM10x[i].freeze = true
+    local xJOKER10x = gg.getResults(140701)
+    for i, v in ipairs(xJOKER10x) do
+        xJOKER10x[i].flags = gg.TYPE_DWORD
+        xJOKER10x[i].value = '0'
+        xJOKER10x[i].freeze = true
     end
-    gg.addListItems(xSenioRxM10x)
+    gg.addListItems(xJOKER10x)
     gg.clearResults()
     gg.setVisible(false)
     gg.clearResults()
@@ -483,13 +483,13 @@ function AAL3()
     gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.refineNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(140701)
-    for i, v in ipairs(xSenioRxM10x) do
-        xSenioRxM10x[i].flags = gg.TYPE_DWORD
-        xSenioRxM10x[i].value = '0'
-        xSenioRxM10x[i].freeze = true
+    local xJOKER10x = gg.getResults(140701)
+    for i, v in ipairs(xJOKER10x) do
+        xJOKER10x[i].flags = gg.TYPE_DWORD
+        xJOKER10x[i].value = '0'
+        xJOKER10x[i].freeze = true
     end
-    gg.addListItems(xSenioRxM10x)
+    gg.addListItems(xJOKER10x)
     gg.clearResults()
     gg.setVisible(false)
     gg.clearResults()
@@ -497,11 +497,11 @@ function AAL3()
     gg.searchNumber("70658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.searchNumber("70658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.refineNumber("70658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(140701)
-    for i, v in ipairs(xSenioRxM10x) do
-        xSenioRxM10x[i].flags = gg.TYPE_DWORD
-        xSenioRxM10x[i].value = '0'
-        xSenioRxM10x[i].freeze = true
+    local xJOKER10x = gg.getResults(140701)
+    for i, v in ipairs(xJOKER10x) do
+        xJOKER10x[i].flags = gg.TYPE_DWORD
+        xJOKER10x[i].value = '0'
+        xJOKER10x[i].freeze = true
     end
     gg.clearResults()
     gg.setVisible(false)
@@ -510,13 +510,13 @@ function AAL3()
     gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.refineNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(140701)
-    for i, v in ipairs(xSenioRxM10x) do
-        xSenioRxM10x[i].flags = gg.TYPE_DWORD
-        xSenioRxM10x[i].value = '0'
-        xSenioRxM10x[i].freeze = true
+    local xJOKER10x = gg.getResults(140701)
+    for i, v in ipairs(xJOKER10x) do
+        xJOKER10x[i].flags = gg.TYPE_DWORD
+        xJOKER10x[i].value = '0'
+        xJOKER10x[i].freeze = true
     end
-    gg.addListItems(xSenioRxM10x)
+    gg.addListItems(xJOKER10x)
     gg.clearResults()
     gg.setVisible(false)
     gg.clearResults()
@@ -524,11 +524,11 @@ function AAL3()
     gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.refineNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(140701)
-    for i, v in ipairs(xSenioRxM10x) do
-        xSenioRxM10x[i].flags = gg.TYPE_QWORD
-        xSenioRxM10x[i].value = '0'
-        xSenioRxM10x[i].freeze = true
+    local xJOKER10x = gg.getResults(140701)
+    for i, v in ipairs(xJOKER10x) do
+        xJOKER10x[i].flags = gg.TYPE_QWORD
+        xJOKER10x[i].value = '0'
+        xJOKER10x[i].freeze = true
     end
     gg.clearResults()
     gg.setVisible(false)
@@ -537,13 +537,13 @@ function AAL3()
     gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.refineNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(140701)
-    for i, v in ipairs(xSenioRxM10x) do
-        xSenioRxM10x[i].flags = gg.TYPE_DWORD
-        xSenioRxM10x[i].value = '0'
-        xSenioRxM10x[i].freeze = true
+    local xJOKER10x = gg.getResults(140701)
+    for i, v in ipairs(xJOKER10x) do
+        xJOKER10x[i].flags = gg.TYPE_DWORD
+        xJOKER10x[i].value = '0'
+        xJOKER10x[i].freeze = true
     end
-    gg.addListItems(xSenioRxM10x)
+    gg.addListItems(xJOKER10x)
     gg.clearResults()
     gg.setVisible(false)
     gg.clearResults()
@@ -551,13 +551,13 @@ function AAL3()
     gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.refineNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(140701)
-    for i, v in ipairs(xSenioRxM10x) do
-        xSenioRxM10x[i].flags = gg.TYPE_DWORD
-        xSenioRxM10x[i].value = '0'
-        xSenioRxM10x[i].freeze = true
+    local xJOKER10x = gg.getResults(140701)
+    for i, v in ipairs(xJOKER10x) do
+        xJOKER10x[i].flags = gg.TYPE_DWORD
+        xJOKER10x[i].value = '0'
+        xJOKER10x[i].freeze = true
     end
-    gg.addListItems(xSenioRxM10x)
+    gg.addListItems(xJOKER10x)
     gg.clearResults()
     gg.setVisible(false)
     gg.clearResults()
@@ -570,210 +570,176 @@ function AAL3()
 gg.alert("الجوكر تم كسر الحماية")
 end
 end
-
-
 
 
 
 
 function AL2()
+gg.setVisible(false)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("67109377;67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
+local t = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+	if v.flags == gg.TYPE_DWORD then
+		v.value = "0"
+		v.freeze = true
+	end
+end
+gg.addListItems(t)
+t = nil
  gg.clearResults()
- edit({
-{gg.REGION_C_ALLOC},
-{"Memory Freeze"},
-{134658, 4},
-{134658, 0, 4},
-},
-{
-{0, 0, 4, true},
-})
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"135682"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"134658"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"133378"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"135938"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"134914"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"133635"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"131586"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"131842"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"133634"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"134402"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"144387"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"147971"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"196867"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"70658"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"67110145"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"327939"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"262403"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"131331"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"83887361"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"100664577"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber('"117441793"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(11082001)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.clearResults()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-local JOKERgaminG = gg.getResults(140701)
-for i, v in ipairs(JOKERgaminG) do
-JOKERgaminG[i].flags = gg.TYPE_QWORD
-JOKERgaminG[i].value = '0'
-JOKERgaminG[i].freeze = true
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("2136~2139", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(20000, nil, nil, nil, nil, nil, nil, nil, nil)
+local t = gg.getResults(20000, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+	if v.flags == gg.TYPE_DWORD then
+		v.value = "0"
+		v.freeze = true
+	end
 end
-gg.addListItems(JOKERgaminG)
-gg.clearResults()
-gg.setVisible(false)
-gg.clearResults()
-gg.setRanges(gg.REGION_C_ALLOC)
-gg.searchNumber("1,801,989,935;1,919,905,893;1,768,710,958;1,920,233,061", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1,801,989,935;1,919,905,893;1,768,710,958;1,920,233,061", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1,801,989,935;1,919,905,893;1,768,710,958;1,920,233,061", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-local NotXRapz = gg.getResults(50000)
-for i, v in ipairs(NotXRapz) do
-    NotXRapz[i].flags = gg.TYPE_DWORD
-    NotXRapz[i].value = '0'
-    NotXRapz[i].freeze = true
+gg.addListItems(t)
+t = nil
+ gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("65538", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(20000, nil, nil, nil, nil, nil, nil, nil, nil)
+local t = gg.getResults(20000, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+	if v.flags == gg.TYPE_DWORD then
+		v.value = "0"
+		v.freeze = true
+	end
 end
-gg.addListItems(NotXRapz)
+gg.addListItems(t)
+t = nil
 gg.clearResults()
-gg.setVisible(false)
+--- Mrjcheat
+gg.setRanges(gg.REGION_C_DATA)
+gg.searchNumber("-1.3039565e21;-3.6907917e20;-1.3620364e28;-3.6893509e20:13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("-1.3620364e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_DATA)
+gg.searchNumber("-5.8454592e27;-5.7318526e27;-1.3620364e28:9", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("-1.3620364e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll("0", gg.TYPE_FLOAT)
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("136,303", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("67,109,633;196,867:50", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.searchNumber("67,109,377;70,658:200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("70,658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("132,098", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("131,586", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("65,536;458,752;393,216:521", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("19,507", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("19,168", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("550292,01", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.clearResults()
 gg.searchNumber("131586", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("131586", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("131586", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-local NotXRapz = gg.getResults(50000)
-for i, v in ipairs(NotXRapz) do
-    NotXRapz[i].flags = gg.TYPE_DWORD
-    NotXRapz[i].value = '0'
-    NotXRapz[i].freeze = true
-end
-gg.addListItems(NotXRapz)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
 gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.clearResults()
+gg.searchNumber("67598982", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.setVisible(false)
-gg.clearResults()
 gg.setVisible(false)
+revert = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0", gg.TYPE_DWORD)
 gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("1130852172;1852139884::14", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("1130852172;1852139884", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.refineNumber("1130852172;1852139884", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-local JOKERgaminG = gg.getResults(140701)
-for i, v in ipairs(JOKERgaminG) do
-JOKERgaminG[i].flags = gg.TYPE_QWORD
-JOKERgaminG[i].value = '0'
-JOKERgaminG[i].freeze = true
+gg.searchNumber("67598981", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.setVisible(false)
+gg.setVisible(false)
+revert = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("262,403", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.setVisible(false)
+gg.setVisible(false)
+revert = gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, i in ipairs((gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil))) do
+if i.flags == gg.TYPE_DWORD then
+i.value = "0"
+i.freeze = true
 end
-gg.addListItems(JOKERgaminG)
+end
+gg.addListItems((gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)))
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("67,109,377", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.setVisible(false)
+gg.setVisible(false)
+revert = gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, i in ipairs((gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil))) do
+if i.flags == gg.TYPE_DWORD then
+i.value = "0"
+i.freeze = true
+end
+end
+gg.addListItems((gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)))
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("7,077,901", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.setVisible(false)
+gg.setVisible(false)
+revert = gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, i in ipairs((gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil))) do
+if i.flags == gg.TYPE_DWORD then
+i.value = "0"
+i.freeze = true
+end
+end
+gg.addListItems((gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)))
+---
+gg.clearResults()
 gg.clearResults()
 gg.alert("الجوكر تم كسر الحماية")
 end
-
 
 
 
@@ -785,13 +751,13 @@ gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-local JOKERgaminG = gg.getResults(140701)
-for i, v in ipairs(JOKERgaminG) do
-JOKERgaminG[i].flags = gg.TYPE_QWORD
-JOKERgaminG[i].value = '0'
-JOKERgaminG[i].freeze = true
+local xJOKERx = gg.getResults(140701)
+for i, v in ipairs(xJOKERx) do
+xJOKERx[i].flags = gg.TYPE_QWORD
+xJOKERx[i].value = '0'
+xJOKERx[i].freeze = true
 end
-gg.addListItems(JOKERgaminG)
+gg.addListItems(xJOKERx)
 gg.clearResults()
 gg.setVisible(false)
 gg.clearResults()
@@ -819,13 +785,13 @@ gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("1,801,989,935;1,919,905,893;1,768,710,958;1,920,233,061", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("1,801,989,935;1,919,905,893;1,768,710,958;1,920,233,061", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("1,801,989,935;1,919,905,893;1,768,710,958;1,920,233,061", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-local NotXRapz = gg.getResults(50000)
-for i, v in ipairs(NotXRapz) do
-    NotXRapz[i].flags = gg.TYPE_DWORD
-    NotXRapz[i].value = '0'
-    NotXRapz[i].freeze = true
+local xJOKERx = gg.getResults(50000)
+for i, v in ipairs(xJOKERx) do
+    xJOKERx[i].flags = gg.TYPE_DWORD
+    xJOKERx[i].value = '0'
+    xJOKERx[i].freeze = true
 end
-gg.addListItems(NotXRapz)
+gg.addListItems(xJOKERx)
 gg.clearResults()
 gg.setVisible(false)
 gg.clearResults()
@@ -833,13 +799,13 @@ gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("131586", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("131586", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("131586", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-local NotXRapz = gg.getResults(50000)
-for i, v in ipairs(NotXRapz) do
-    NotXRapz[i].flags = gg.TYPE_DWORD
-    NotXRapz[i].value = '0'
-    NotXRapz[i].freeze = true
+local xJOKERx = gg.getResults(50000)
+for i, v in ipairs(xJOKERx) do
+    xJOKERx[i].flags = gg.TYPE_DWORD
+    xJOKERx[i].value = '0'
+    xJOKERx[i].freeze = true
 end
-gg.addListItems(NotXRapz)
+gg.addListItems(xJOKERx)
 gg.clearResults()
 gg.setVisible(false)
 gg.clearResults()
@@ -856,13 +822,13 @@ gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-local NotXRapz = gg.getResults(140701)
-for i, v in ipairs(NotXRapz) do
-    NotXRapz[i].flags = gg.TYPE_DWORD
-    NotXRapz[i].value = '0'
-    NotXRapz[i].freeze = true
+local xJOKERx = gg.getResults(140701)
+for i, v in ipairs(xJOKERx) do
+    xJOKERx[i].flags = gg.TYPE_DWORD
+    xJOKERx[i].value = '0'
+    xJOKERx[i].freeze = true
 end
-gg.addListItems(NotXRapz)
+gg.addListItems(xJOKERx)
 gg.clearResults()
 gg.setVisible(false)
 gg.clearResults()
@@ -1222,440 +1188,170 @@ end
 
 
 function krr2()
-    gg.clearResults()
-    gg.setRanges(4)
-    gg.searchNumber("67109633", 4)
-    if gg.getResultCount() == 0 then
-    gg.alert("Failed Restart Game And Try , لم يتم التفعيل !! ❌")
-    gg.setVisible(true)
-    gg.processKill()
-    os.exit()
-    else
-    gg.getResults(50000)
-    gg.editAll("0", 4)
-    gg.clearResults()                                             
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber('"67109633"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber('"67109633"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    revert = gg.getResults(16122000, nil, nil, nil, nil, nil, nil, nil, nil)
-    local SM_XD = gg.getResults(16122000, nil, nil, nil, nil, nil, nil, nil, nil)
-    for i, v in ipairs(SM_XD) do
-    if v.flags == gg.TYPE_DWORD then
-    v.value = '"0"'
-    v.freeze = true
-    end                                     
-    end                                     
-    gg.addListItems(SM_XD)
-    SM_XD = nil
-    gg.clearResults()                                               
-    gg.clearList()
-    gg.clearResults()                                               
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber('"67109377"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber('"67109377"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    revert = gg.getResults(16122000, nil, nil, nil, nil, nil, nil, nil, nil)
-    local SXXD = gg.getResults(16122000, nil, nil, nil, nil, nil, nil, nil, nil)
-    for i, v in ipairs(SXXD) do
-    if v.flags == gg.TYPE_DWORD then
-    v.value = '"0"'
-    v.freeze = true
-    end                                     
-    end                                     
-    gg.addListItems(SXXD)
-    SXXD = nil
-    gg.clearResults()                                               
-    gg.clearList()
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-    if gg.getResultCount() == 0 then
-    else
-    gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-    n = gg.getResultCount()jz = gg.getResults(n)
-     for i =1, n do
-          gg.addListItems({
-          [1] = { address = jz[i].address - 252, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address - 236, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address - 232, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address - 72, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address - 68, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address - 64, flags = 4, freeze = true, value = 70086 } 
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 30, flags = 4, freeze = true, value = 119 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 130, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 180, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 200, flags = 4, freeze = true, value = 4451 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 300, flags = 4, freeze = true, value = 0 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 310, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 360, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 450, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 650, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 800, flags = 4, freeze = true, value = 70086 }
-          })
-          end
-          end
-          gg.clearResults()
-          gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(50000)
-    for i, v in ipairs(xSenioRxM10x) do
-    xSenioRxM10x[i].flags = gg.TYPE_DWORD
-    xSenioRxM10x[i].value = '0'
-    xSenioRxM10x[i].freeze = true
-    end
-    gg.addListItems(xSenioRxM10x)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(50000)
-    for i, v in ipairs(xSenioRxM10x) do
-    xSenioRxM10x[i].flags = gg.TYPE_QWORD
-    xSenioRxM10x[i].value = '0'
-    xSenioRxM10x[i].freeze = true
-    end
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(50000)
-    for i, v in ipairs(xSenioRxM10x) do
-    xSenioRxM10x[i].flags = gg.TYPE_DWORD
-    xSenioRxM10x[i].value = '0'
-    xSenioRxM10x[i].freeze = true
-    end
-    gg.addListItems(xSenioRxM10x)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("12547", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(50000)
-    for i, v in ipairs(xSenioRxM10x) do
-    xSenioRxM10x[i].flags = gg.TYPE_DWORD
-    xSenioRxM10x[i].value = '0'
-    xSenioRxM10x[i].freeze = true
-    end
-    gg.addListItems(xSenioRxM10x)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("32,039", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(50000)
-    for i, v in ipairs(xSenioRxM10x) do
-    xSenioRxM10x[i].flags = gg.TYPE_DWORD
-    xSenioRxM10x[i].value = '0'
-    xSenioRxM10x[i].freeze = true
-    end
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("16,712,197", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(50000)
-    for i, v in ipairs(xSenioRxM10x) do
-    xSenioRxM10x[i].flags = gg.TYPE_DWORD
-    xSenioRxM10x[i].value = '0'
-    xSenioRxM10x[i].freeze = true
-    end
-    gg.clearResults()
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("1401", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("1401", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("1401", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(140701)
-    for i, v in ipairs(xSenioRxM10x) do
-        xSenioRxM10x[i].flags = gg.TYPE_DWORD
-        xSenioRxM10x[i].value = '0'
-        xSenioRxM10x[i].freeze = true
-    end
-    gg.addListItems(xSenioRxM10x)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(140701)
-    for i, v in ipairs(xSenioRxM10x) do
-        xSenioRxM10x[i].flags = gg.TYPE_QWORD
-        xSenioRxM10x[i].value = '0'
-        xSenioRxM10x[i].freeze = true
-    end
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(140701)
-    for i, v in ipairs(xSenioRxM10x) do
-        xSenioRxM10x[i].flags = gg.TYPE_DWORD
-        xSenioRxM10x[i].value = '0'
-        xSenioRxM10x[i].freeze = true
-    end
-    gg.addListItems(xSenioRxM10x)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(140701)
-    for i, v in ipairs(xSenioRxM10x) do
-        xSenioRxM10x[i].flags = gg.TYPE_DWORD
-        xSenioRxM10x[i].value = '0'
-        xSenioRxM10x[i].freeze = true
-    end
-    gg.addListItems(xSenioRxM10x)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("70658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("70658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("70658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(140701)
-    for i, v in ipairs(xSenioRxM10x) do
-        xSenioRxM10x[i].flags = gg.TYPE_DWORD
-        xSenioRxM10x[i].value = '0'
-        xSenioRxM10x[i].freeze = true
-    end
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(140701)
-    for i, v in ipairs(xSenioRxM10x) do
-        xSenioRxM10x[i].flags = gg.TYPE_DWORD
-        xSenioRxM10x[i].value = '0'
-        xSenioRxM10x[i].freeze = true
-    end
-    gg.addListItems(xSenioRxM10x)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(140701)
-    for i, v in ipairs(xSenioRxM10x) do
-        xSenioRxM10x[i].flags = gg.TYPE_QWORD
-        xSenioRxM10x[i].value = '0'
-        xSenioRxM10x[i].freeze = true
-    end
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(140701)
-    for i, v in ipairs(xSenioRxM10x) do
-        xSenioRxM10x[i].flags = gg.TYPE_DWORD
-        xSenioRxM10x[i].value = '0'
-        xSenioRxM10x[i].freeze = true
-    end
-    gg.addListItems(xSenioRxM10x)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(140701)
-    for i, v in ipairs(xSenioRxM10x) do
-        xSenioRxM10x[i].flags = gg.TYPE_DWORD
-        xSenioRxM10x[i].value = '0'
-        xSenioRxM10x[i].freeze = true
-    end
-    gg.addListItems(xSenioRxM10x)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.sleep(1401)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(140701)
-    for i, v in ipairs(xSenioRxM10x) do
-        xSenioRxM10x[i].flags = gg.TYPE_DWORD
-        xSenioRxM10x[i].value = '0'
-        xSenioRxM10x[i].freeze = true
-    end
-    gg.addListItems(xSenioRxM10x)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(140701)
-    for i, v in ipairs(xSenioRxM10x) do
-        xSenioRxM10x[i].flags = gg.TYPE_QWORD
-        xSenioRxM10x[i].value = '0'
-        xSenioRxM10x[i].freeze = true
-    end
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(140701)
-    for i, v in ipairs(xSenioRxM10x) do
-        xSenioRxM10x[i].flags = gg.TYPE_DWORD
-        xSenioRxM10x[i].value = '0'
-        xSenioRxM10x[i].freeze = true
-    end
-    gg.addListItems(xSenioRxM10x)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(140701)
-    for i, v in ipairs(xSenioRxM10x) do
-        xSenioRxM10x[i].flags = gg.TYPE_DWORD
-        xSenioRxM10x[i].value = '0'
-        xSenioRxM10x[i].freeze = true
-    end
-    gg.addListItems(xSenioRxM10x)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("70658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("70658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("70658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(140701)
-    for i, v in ipairs(xSenioRxM10x) do
-        xSenioRxM10x[i].flags = gg.TYPE_DWORD
-        xSenioRxM10x[i].value = '0'
-        xSenioRxM10x[i].freeze = true
-    end
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(140701)
-    for i, v in ipairs(xSenioRxM10x) do
-        xSenioRxM10x[i].flags = gg.TYPE_DWORD
-        xSenioRxM10x[i].value = '0'
-        xSenioRxM10x[i].freeze = true
-    end
-    gg.addListItems(xSenioRxM10x)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(140701)
-    for i, v in ipairs(xSenioRxM10x) do
-        xSenioRxM10x[i].flags = gg.TYPE_QWORD
-        xSenioRxM10x[i].value = '0'
-        xSenioRxM10x[i].freeze = true
-    end
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(140701)
-    for i, v in ipairs(xSenioRxM10x) do
-        xSenioRxM10x[i].flags = gg.TYPE_DWORD
-        xSenioRxM10x[i].value = '0'
-        xSenioRxM10x[i].freeze = true
-    end
-    gg.addListItems(xSenioRxM10x)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xSenioRxM10x = gg.getResults(140701)
-    for i, v in ipairs(xSenioRxM10x) do
-        xSenioRxM10x[i].flags = gg.TYPE_DWORD
-        xSenioRxM10x[i].value = '0'
-        xSenioRxM10x[i].freeze = true
-    end
-    gg.addListItems(xSenioRxM10x)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-gg.alert("الجوكر تم كسر الحماية")
+gg.setVisible(false)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("67109377;67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
+local t = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+	if v.flags == gg.TYPE_DWORD then
+		v.value = "0"
+		v.freeze = true
+	end
 end
+gg.addListItems(t)
+t = nil
+ gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("2136~2139", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(20000, nil, nil, nil, nil, nil, nil, nil, nil)
+local t = gg.getResults(20000, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+	if v.flags == gg.TYPE_DWORD then
+		v.value = "0"
+		v.freeze = true
+	end
+end
+gg.addListItems(t)
+t = nil
+ gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("65538", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+revert = gg.getResults(20000, nil, nil, nil, nil, nil, nil, nil, nil)
+local t = gg.getResults(20000, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+	if v.flags == gg.TYPE_DWORD then
+		v.value = "0"
+		v.freeze = true
+	end
+end
+gg.addListItems(t)
+t = nil
+gg.clearResults()
+--- Mrjcheat
+gg.setRanges(gg.REGION_C_DATA)
+gg.searchNumber("-1.3039565e21;-3.6907917e20;-1.3620364e28;-3.6893509e20:13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("-1.3620364e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_DATA)
+gg.searchNumber("-5.8454592e27;-5.7318526e27;-1.3620364e28:9", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("-1.3620364e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("136,303", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("67,109,633;196,867:50", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.searchNumber("67,109,377;70,658:200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("70,658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("132,098", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("131,586", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("65,536;458,752;393,216:521", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("19,507", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("19,168", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("550292,01", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.clearResults()
+gg.searchNumber("131586", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.clearResults()
+gg.searchNumber("67598982", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.setVisible(false)
+gg.setVisible(false)
+revert = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.searchNumber("67598981", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.setVisible(false)
+gg.setVisible(false)
+revert = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("262,403", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.setVisible(false)
+gg.setVisible(false)
+revert = gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, i in ipairs((gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil))) do
+if i.flags == gg.TYPE_DWORD then
+i.value = "0"
+i.freeze = true
+end
+end
+gg.addListItems((gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)))
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("67,109,377", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.setVisible(false)
+gg.setVisible(false)
+revert = gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, i in ipairs((gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil))) do
+if i.flags == gg.TYPE_DWORD then
+i.value = "0"
+i.freeze = true
+end
+end
+gg.addListItems((gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)))
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("7,077,901", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.setVisible(false)
+gg.setVisible(false)
+revert = gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, i in ipairs((gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil))) do
+if i.flags == gg.TYPE_DWORD then
+i.value = "0"
+i.freeze = true
+end
+end
+gg.addListItems((gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)))
+---
+gg.clearResults()
+gg.clearResults()
+gg.alert("الجوكر تم كسر الحماية")
 end
 
 
