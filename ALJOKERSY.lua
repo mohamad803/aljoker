@@ -1,6 +1,97 @@
 
 -- -- -- -- -- -- -- -- -- --   S p l i T   -- -- -- -- -- -- -- -- -- --
-
+function split(szFullString, szSeparator)
+ local nFindStartIndex = 1
+ local nSplitIndex = 1
+ local nSplitArray = {}
+ while true do
+  local nFindLastIndex = string.find(
+   szFullString,
+   szSeparator,
+   nFindStartIndex
+  )
+  if not nFindLastIndex then
+   nSplitArray[nSplitIndex] = string.sub(
+    szFullString,
+    nFindStartIndex,
+    string.len(szFullString)
+   )
+   break
+  end
+  nSplitArray[nSplitIndex] = string.sub(
+   szFullString,
+   nFindStartIndex,
+   nFindLastIndex - 1
+  )
+  nFindStartIndex = nFindLastIndex + string.len(szSeparator)
+  nSplitIndex = nSplitIndex + 1
+ end
+ return nSplitArray
+end
+function xgxc(szpy, qmxg)
+ for x = 1, #(qmxg) do
+  xgpy = szpy + qmxg[x]["offset"]
+  xglx = qmxg[x]["type"]
+  xgsz = qmxg[x]["value"]
+  gg.setValues({[1] = {address = xgpy, flags = xglx, value = xgsz}})
+  xgsl = xgsl + 1
+ end
+end
+function xqmnb(CrAzY)
+ gg.clearResults()
+ gg.setRanges(CrAzY[1]["memory"])
+ gg.searchNumber(CrAzY[3]["value"], CrAzY[3]["type"])
+ if gg.getResultCount() == 0 then
+  gg.toast(CrAzY[2]["name"] .. "فشل التفعيل")
+ else
+  gg.refineNumber(CrAzY[3]["value"], CrAzY[3]["type"])
+  gg.refineNumber(CrAzY[3]["value"], CrAzY[3]["type"])
+  gg.refineNumber(CrAzY[3]["value"], CrAzY[3]["type"])
+  if gg.getResultCount() == 0 then
+   gg.toast(CrAzY[2]["name"] .. "فشل التفعيل")
+  else
+   sl = gg.getResults(999999)
+   sz = gg.getResultCount()
+   xgsl = 0
+   if sz > 999999 then
+    sz = 999999
+   end
+   for i = 1, sz do
+    pdsz = true
+    for v = 4, #(CrAzY) do
+     if pdsz == true then
+      pysz = {}
+      pysz[1] = {}
+      pysz[1].address = sl[i].address + CrAzY[v]["offset"]
+      pysz[1].flags = CrAzY[v]["type"]
+      szpy = gg.getValues(pysz)
+      pdpd = CrAzY[v]["lv"] .. ";" .. szpy[1].value
+      szpd = split(pdpd, ";")
+      tzszpd = szpd[1]
+      pyszpd = szpd[2]
+      if tzszpd == pyszpd then
+       pdjg = true
+       pdsz = true
+      else
+       pdjg = false
+       pdsz = false
+      end
+     end
+    end
+    if pdjg == true then
+     szpy = sl[i].address
+     xgxc(szpy, qmxg)
+     xgjg = true
+    end
+   end
+   if xgjg == true then
+    gg.toast(CrAzY[2]["name"] .. "Modified " .. xgsl .. " Values🔍")
+   else
+    gg.toast(CrAzY[2]["name"] .. "فشل التفعيل")
+   end
+  end
+ end
+end
 
 function split(szFullString, szSeparator) local nFindStartIndex = 1 local nSplitIndex = 1 local nSplitArray = {} while true do local nFindLastIndex = string.find(szFullString, szSeparator, nFindStartIndex) if not nFindLastIndex then nSplitArray[nSplitIndex] = string.sub(szFullString, nFindStartIndex, string.len(szFullString)) break end nSplitArray[nSplitIndex] = string.sub(szFullString, nFindStartIndex, nFindLastIndex - 1) nFindStartIndex = nFindLastIndex + string.len(szSeparator) nSplitIndex = nSplitIndex + 1 end return nSplitArray end function xgxc(szpy, qmxg) for x = 1, #(qmxg) do xgpy = szpy + qmxg[x]["offset"] xglx = qmxg[x]["type"] xgsz = qmxg[x]["value"] gg.setValues({[1] = {address = xgpy, flags = xglx, value = xgsz}}) xgsl = xgsl + 1 end end function xqmnb(qmnb) gg.clearResults() gg.setRanges(qmnb[1]["memory"]) gg.searchNumber(qmnb[3]["value"], qmnb[3]["type"]) if gg.getResultCount() == 0 then gg.toast(qmnb[2]["name"] .. "开启失败") else gg.refineNumber(qmnb[3]["value"], qmnb[3]["type"]) gg.refineNumber(qmnb[3]["value"], qmnb[3]["type"]) gg.refineNumber(qmnb[3]["value"], qmnb[3]["type"]) if gg.getResultCount() == 0 then gg.toast(qmnb[2]["name"] .. "开启失败") else sl = gg.getResults(999999) sz = gg.getResultCount() xgsl = 0 if sz > 999999 then sz = 999999 end for i = 1, sz do pdsz = true for v = 4, #(qmnb) do if pdsz == true then pysz = {} pysz[1] = {} pysz[1].address = sl[i].address + qmnb[v]["offset"] pysz[1].flags = qmnb[v]["type"] szpy = gg.getValues(pysz) pdpd = qmnb[v]["lv"] .. ";" .. szpy[1].value szpd = split(pdpd, ";") tzszpd = szpd[1] pyszpd = szpd[2] if tzszpd == pyszpd then pdjg = true pdsz = true else pdjg = false pdsz = false end end end if pdjg == true then szpy = sl[i].address xgxc(szpy, qmxg) xgjg = true end end if xgjg == true then gg.toast(qmnb[2]["name"] .. "开启成功,共修改" .. xgsl .. "条数据") else gg.toast(qmnb[2]["name"] .. "开启失败") end end end end
 
@@ -70,17 +161,13 @@ end
 
 
 function thbatv2()
-gg.clearResults()
-gg.setRanges(32)
-gg.searchNumber("1.5584387e28", 16, false, 536870912, 0, -1)
-gg.getResults(20)
-gg.editAll("0", 16)
-gg.clearResults()
-gg.searchNumber("1.0F;1D;0.05000000075F;0.10000000149F:57", 4, false, 536870912, 0, -1)
-gg.refineNumber("1", 4, false, 536870912, 0, -1)
-gg.getResults(999)
-gg.editAll("0", 4)
-gg.clearResults()
+gg["clearResults"]()
+gg["setRanges"](gg["REGION_ANONYMOUS"])
+gg.searchNumber("1,348,759,109;1,953,067,887;1,634,692,166;1,920,287,604:512", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg.searchNumber("1,634,692,166", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+gg["getResults"](10)
+gg["editAll"]("0", gg["TYPE_DWORD"])
+gg["clearResults"]()
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
 gg.searchNumber("2~4;1.09375;1;18;3.5::25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
@@ -3073,106 +3160,83 @@ end
 
 function NOREC()
 gg.clearResults()
-gg.setRanges(32)
-gg.searchNumber("1.5584387e28", 16, false, 536870912, 0, -1)
-gg.getResults(20)
+gg.setRanges(8)
+gg.setVisible(false)
+gg.searchNumber("-2.2673448e24;-1.36203639e28", 16, false, 536870912, 0, -1)
+gg.setVisible(false)
+gg.setVisible(false)
+gg.searchNumber("-1.36203639e28", 16, false, 536870912, 0, -1)
+gg.setVisible(false)
+gg.setVisible(false)
+gg.getResults(99)
 gg.editAll("0", 16)
 gg.clearResults()
-gg.searchNumber("1.0F;1D;0.05000000075F;0.10000000149F:57", 4, false, 536870912, 0, -1)
-gg.refineNumber("1", 4, false, 536870912, 0, -1)
-gg.getResults(999)
-gg.editAll("0", 4)
+gg.setVisible(false)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("-1281263094875551231", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("-1281263094875551231", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineAddress("7B0", -1, gg.TYPE_QWORD, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("-1281263094875551231", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1401)
+gg.editAll("-1281263098870628352", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("3.8126822e-21;-1.1144502e28;-2.0291021e20:9", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineAddress("328")
+gg.getResults(551)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber("0.2~0.3;53;30;1::", 16, false, 536870912, 0, -1)
+gg.searchNumber("0.2~0.3;1::", 16, false, 536870912, 0, -1)
+gg.getResults(200)
+gg.editAll("0", 16)
 gg.clearResults()
 gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("2~4;1.09375;1;18;3.5::25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2~4;1.09375::5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("2~4", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("-2.2673448e24;-1.36203639e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("-1.36203639e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(99)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("-2.8111605e28;-3.7444097e28;-1.1144502e28;128.0::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("-1.1144502e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("-6.1549454e27;1.8638966e-20;-1.1144502e28;0::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("-1.1144502e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("-1903895931231645695", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("-1903895931231645695", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineAddress("740", -1, gg.TYPE_QWORD, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("-1903895931231645695", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1401)
+gg.editAll("-1903895931231645696", gg.TYPE_QWORD)
+gg.clearResults()
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("-1281263094875551231", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("-1281263094875551231", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineAddress("7B0", -1, gg.TYPE_QWORD, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("-1281263094875551231", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1401)
+gg.editAll("-1281263098870628352", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber("2~4;1.09375;1;18;3.5::25", 16, false, 536870912, 0, -1)
+gg.searchNumber("2~4;1.09375::5", 16, false, 536870912, 0, -1)
+gg.searchNumber("2~4", 16, false, 536870912, 0, -1)
 gg.getResults(50)
-gg.editAll("-0.5", gg.TYPE_FLOAT)
+gg.editAll("-0.5", 16)
 gg.clearResults()
- gg.clearResults()
-  gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("3.8126822e-21;-1.1144502e28;-2.0291021e20:9", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineAddress("328")
-  gg.getResults(551)
-  gg.editAll("0", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("3.8126822e-21;-1.1144502e28;-2.0291021e20:9", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineAddress("344")
-  gg.getResults(551)
-  gg.editAll("0", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("3.8126822e-21;-1.1144502e28;-2.0291021e20:9", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineAddress("2CC")
-  gg.getResults(551)
-  gg.editAll("0", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("0.2~0.3;53;30;1::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("0.2~0.3;1::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(200)
-  gg.editAll("0", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("-2.2673448e24;-1.36203639e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("-1.36203639e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(99)
-  gg.editAll("0", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("-2.8111605e28;-3.7444097e28;-1.1144502e28;128.0::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("-1.1144502e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("0", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("-6.1549454e27;1.8638966e-20;-1.1144502e28;0::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("-1.1144502e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1)
-  gg.editAll("0", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.clearResults()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("-1903895931231645695", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("-1903895931231645695", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineAddress("740", -1, gg.TYPE_QWORD, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("-1903895931231645695", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1401)
-  gg.editAll("-1903895931231645696", gg.TYPE_QWORD)
-  gg.clearResults()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("-1281263094875551231", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("-1281263094875551231", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineAddress("7B0", -1, gg.TYPE_QWORD, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("-1281263094875551231", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1401)
-  gg.editAll("-1281263098870628352", gg.TYPE_QWORD)
-  gg.toast("jok")
-  gg.clearResults()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_CODE_APP)
-  gg.searchNumber("-1759781550398895551", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("-1759781550398895551", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineAddress("098", -1, gg.TYPE_QWORD, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber("-1759781550398895551", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1401)
-  gg.editAll("-1759781554395021312", gg.TYPE_QWORD)
-  gg.clearResults()
-  gg.clearResults()
-  gg.setRanges(16384)
-  gg.searchNumber('-290,174,237', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineNumber('-290,174,237', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.refineAddress('E00', -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1)
-  gg.editAll('0', gg.TYPE_DWORD)
-  gg.clearResults()
 gg.toast("⁦ALJOKER🇦🇪⁩ＶＩＰ🤡🤡⁦")
 end
 
