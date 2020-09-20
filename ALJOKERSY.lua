@@ -513,346 +513,22 @@ gg.toast("joker")
 end
 
 
+
 function AAL3()
 clearlog()
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24",16,false,536870912,0,-1)
-    if gg.getResultsCount() == 0 then
-    gg.alert("Failed Restart Game And Try , لم يتم التفعيل !! ❌")
-    gg.setVisible(true)
-    gg.processKill()
-    os.exit()
-    else
-    gg.searchNumber("2.2958874e-41",16,false,536870912,0,-1)
-    resultsCount = gg.getResultsCount()
-    results = gg.getResults(resultsCount)
-    for ChiTaM = 1, resultsCount  do
-            gg.addListItems({[1] = {address = results[ChiTaM].address - 252,flags = 4,freeze = true,value = 70086}})
-            gg.addListItems({[1] = {address = results[ChiTaM].address - 236,flags = 4,freeze = true,value = 70086}})
-            gg.addListItems({[1] = {address = results[ChiTaM].address - 232,flags = 4,freeze = true,value = 70086}})
-            gg.addListItems({[1] = {address = results[ChiTaM].address - 72,flags = 4,freeze = true,value = 70086}})
-            gg.addListItems({[1] = {address = results[ChiTaM].address - 68,flags = 4,freeze = true,value = 70086}})
-            gg.addListItems({[1] = {address = results[ChiTaM].address - 64,flags = 4,freeze = true,value = 70086}})
-            gg.addListItems({[1] = {address = results[ChiTaM].address + 30,flags = 4,freeze = true,value = 119}})
-            gg.addListItems({[1] = {address = results[ChiTaM].address + 130,flags = 4,freeze = true,value = 70086}})
-            gg.addListItems({[1] = {address = results[ChiTaM].address + 180,flags = 4,freeze = true,value = 70086}})
-            gg.addListItems({[1] = {address = results[ChiTaM].address + 200,flags = 4,freeze = true,value = 4451}})
-            gg.addListItems({[1] = {address = results[ChiTaM].address + 300,flags = 4,freeze = true,value = 0}})
-            gg.addListItems({[1] = {address = results[ChiTaM].address + 310,flags = 4,freeze = true,value = 70086}})
-            gg.addListItems({[1] = {address = results[ChiTaM].address + 360,flags = 4,freeze = true,value = 70086}})
-            gg.addListItems({[1] = {address = results[ChiTaM].address + 450,flags = 4,freeze = true,value = 70086}})
-            gg.addListItems({[1] = {address = results[ChiTaM].address + 650,flags = 4,freeze = true,value = 70086}})
-            gg.addListItems({[1] = {address = results[ChiTaM].address + 800,flags = 4,freeze = true,value = 70086}})   
-           gg.clearResults()     
-          gg.addListItems(gg.getListItems())
-          gg.toast("🛡Activated🛡")
-        end
-      end
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("70658",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("65795",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("135682",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("131331",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("262403",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("134659",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("327939",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("204803",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("135426", 4)
-     gg.getResults(5000)
-     gg.editAll("0", 4)
-     gg.clearResults()
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("144387",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("204803",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("131586",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("131842",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("132098",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("196867",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("133634",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("134402",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("459011",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("134914",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("131330",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("393475",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("135938",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("135170",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.clearResults()
-    gg.toast("ALJOKER")
-    clearlog()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("12547",4)
-    gg.getResults(5000)
-    gg.editAll("0",4)
-    gg.clearResults()
-    gg.toast("ALJOKER")
-    clearlog()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("67109633",4)
-    gg.getResults(5000)
-    gg.editAll("67109633",4)
-    gg.clearResults()
-    gg.clearResults()
-    gg.toast("ALJOKER")
-    clearlog()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("67109377",4)
-    gg.getResults(5000)
-    gg.editAll("67109377",4)
-    gg.clearResults()
-    gg.toast("ALJOKER")
-    clearlog()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("67109633",4)
-    gg.getResults(5000)
-    gg.editAll("0",4)
-    gg.clearResults()
-    gg.toast("ALJOKER")
-    clearlog()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("131586",4)
-    gg.getResults(5000)
-    gg.editAll("0",4)
-    gg.clearResults()
-    gg.toast("ALJOKER")
-    clearlog()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("12547",4)
-    gg.getResults(5000)
-    gg.editAll("0",4)
-    gg.clearResults()
-    gg.toast("ALJOKER")
-    clearlog()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("11082001",4)
-    gg.getResults(5000)
-    gg.editAll("0",4)
-    gg.clearResults()
-    gg.toast("ALJOKER")
-    clearlog()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("133378",4)
-    gg.getResults(5000)
-    gg.editAll("0",4)
-    gg.toast("ALJOKER")
-    clearlog()
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("134658",4)
-    gg.getResults(5000)
-    gg.editAll("0",4)
-    gg.toast("ALJOKER")
-    clearlog()
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("131.072",4)
-    gg.getResults(5000)
-    gg.editAll("0",4)
-    gg.toast("ALJOKER")
-    clearlog()
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("67.043.328",4)
-    gg.getResults(5000)
-    gg.editAll("0",4)
-    gg.toast("ALJOKER")
-    clearlog()
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("66.977.792",4)
-    chitam = gg.getResults(5000)
-    gg.addListItems(chitam)
-    gg.toast("ALJOKER")
-    clearlog()
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("196.608",4)
-    chitam = gg.getResults(5000)
-    gg.addListItems(chitam)
-    gg.toast("ALJOKER")
-    clearlog()
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("4.128.768",4)
-    chitam = gg.getResults(5000)
-    gg.addListItems(chitam)
-    gg.toast("ALJOKER")
-    clearlog()
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("2.031.616",4)
-    chitam = gg.getResults(5000)
-    gg.addListItems(chitam)
-    clearlog()
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("16.777.216",4)
-    chitam = gg.getResults(5000)
-    gg.addListItems(chitam)
-    gg.toast("ALJOKER")
-    clearlog()
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("134.218.241",4)
-    chitam = gg.getResults(5000)
-    gg.addListItems(chitam)
-    gg.toast("ALJOKER")
-    clearlog()
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("65.535",4)
-    chitam = gg.getResults(5000)
-    gg.addListItems(chitam)
-    gg.clearResults()
-    gg.alert("الجوكر تم كسر الحماية")
-    clearlog()
-    end
-
-
-
-
-function AL2()
-clearlog()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResultsCount()
 gg.clearResults()
 gg.setRanges(4)
 gg.searchNumber("67109377", 4, false, 536870912, 0, -1)
 gg.refineNumber("67109377", 4, false, 536870912, 0, -1)
 if gg.getResultCount() == 0 then
 gg.alert("❌❌ فشل اغلق اللعبه وحاول مره أخرى ❌❌\n تأكد  من العبه جهازك اندرويد 10 نزل لعبه 32bit")
+gg.setVisible(true)
+gg.processKill()
+os.exit()
 else
 local searchCount = gg.getResultCount()
 local searchResults = gg.getResults(searchCount)
@@ -868,6 +544,9 @@ gg.searchNumber("67109633", 4, false, 536870912, 0, -1)
 gg.refineNumber("67109633", 4, false, 536870912, 0, -1)
 if gg.getResultCount() == 0 then
 gg.alert("❌❌ فشل اغلق اللعبه وحاول مره أخرى ❌❌\n تأكد  من العبه جهازك اندرويد 10 نزل لعبه 32bit")
+gg.setVisible(true)
+gg.processKill()
+os.exit()
 else
 local searchCount = gg.getResultCount()
 local searchResults = gg.getResults(searchCount)
@@ -878,801 +557,343 @@ for i, v in ipairs(searchResults) do
 end
 gg.addListItems(searchResults)
 gg.clearResults()
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-    if gg.getResultCount() == 0 then
-    else
-    gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-    n = gg.getResultCount()jz = gg.getResults(n)
-     for i =1, n do
-          gg.addListItems({
-          [1] = { address = jz[i].address - 252, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address - 236, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address - 232, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address - 72, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address - 68, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address - 64, flags = 4, freeze = true, value = 70086 } 
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 30, flags = 4, freeze = true, value = 119 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 130, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 180, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 200, flags = 4, freeze = true, value = 4451 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 300, flags = 4, freeze = true, value = 0 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 310, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 360, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 450, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 650, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 800, flags = 4, freeze = true, value = 70086 }
-          })
-          end
-          end
-          gg.clearResults()
-          gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(50000)
-    for i, v in ipairs(xJOKER10x) do
-    xJOKER10x[i].flags = gg.TYPE_DWORD
-    xJOKER10x[i].value = '0'
-    xJOKER10x[i].freeze = true
-    end
-    gg.addListItems(xJOKER10x)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(50000)
-    for i, v in ipairs(xJOKER10x) do
-    xJOKER10x[i].flags = gg.TYPE_QWORD
-    xJOKER10x[i].value = '0'
-    xJOKER10x[i].freeze = true
-    end
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(50000)
-    for i, v in ipairs(xJOKER10x) do
-    xJOKER10x[i].flags = gg.TYPE_DWORD
-    xJOKER10x[i].value = '0'
-    xJOKER10x[i].freeze = true
-    end
-    gg.addListItems(xJOKER10x)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("12547", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(50000)
-    for i, v in ipairs(xJOKER10x) do
-    xJOKER10x[i].flags = gg.TYPE_DWORD
-    xJOKER10x[i].value = '0'
-    xJOKER10x[i].freeze = true
-    end
-    gg.addListItems(xJOKER10x)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("32,039", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(50000)
-    for i, v in ipairs(xJOKER10x) do
-    xJOKER10x[i].flags = gg.TYPE_DWORD
-    xJOKER10x[i].value = '0'
-    xJOKER10x[i].freeze = true
-    end
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("16,712,197", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(50000)
-    for i, v in ipairs(xJOKER10x) do
-    xJOKER10x[i].flags = gg.TYPE_DWORD
-    xJOKER10x[i].value = '0'
-    xJOKER10x[i].freeze = true
-    end
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("1401", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("1401", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("1401", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(140701)
-    for i, v in ipairs(xJOKER10x) do
-        xJOKER10x[i].flags = gg.TYPE_DWORD
-        xJOKER10x[i].value = '0'
-        xJOKER10x[i].freeze = true
-    end
-    gg.addListItems(xJOKER10x)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(140701)
-    for i, v in ipairs(xJOKER10x) do
-        xJOKER10x[i].flags = gg.TYPE_QWORD
-        xJOKER10x[i].value = '0'
-        xJOKER10x[i].freeze = true
-    end
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(140701)
-    for i, v in ipairs(xJOKER10x) do
-        xJOKER10x[i].flags = gg.TYPE_DWORD
-        xJOKER10x[i].value = '0'
-        xJOKER10x[i].freeze = true
-    end
-    gg.addListItems(xJOKER10x)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(140701)
-    for i, v in ipairs(xJOKER10x) do
-        xJOKER10x[i].flags = gg.TYPE_DWORD
-        xJOKER10x[i].value = '0'
-        xJOKER10x[i].freeze = true
-    end
-    gg.addListItems(xJOKER10x)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("70658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("70658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("70658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(140701)
-    for i, v in ipairs(xJOKER10x) do
-        xJOKER10x[i].flags = gg.TYPE_DWORD
-        xJOKER10x[i].value = '0'
-        xJOKER10x[i].freeze = true
-    end
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(140701)
-    for i, v in ipairs(xJOKER10x) do
-        xJOKER10x[i].flags = gg.TYPE_DWORD
-        xJOKER10x[i].value = '0'
-        xJOKER10x[i].freeze = true
-    end
-    gg.addListItems(xJOKER10x)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(140701)
-    for i, v in ipairs(xJOKER10x) do
-        xJOKER10x[i].flags = gg.TYPE_DWORD
-        xJOKER10x[i].value = '0'
-        xJOKER10x[i].freeze = true
-    end
-    gg.addListItems(xJOKER10x)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(140701)
-    for i, v in ipairs(xJOKER10x) do
-        xJOKER10x[i].flags = gg.TYPE_DWORD
-        xJOKER10x[i].value = '0'
-        xJOKER10x[i].freeze = true
-    end
-    gg.addListItems(xJOKER10x)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.sleep(1401)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(140701)
-    for i, v in ipairs(xJOKER10x) do
-        xJOKER10x[i].flags = gg.TYPE_DWORD
-        xJOKER10x[i].value = '0'
-        xJOKER10x[i].freeze = true
-    end
-    gg.addListItems(xJOKER10x)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(140701)
-    for i, v in ipairs(xJOKER10x) do
-        xJOKER10x[i].flags = gg.TYPE_DWORD
-        xJOKER10x[i].value = '0'
-        xJOKER10x[i].freeze = true
-    end
-    gg.addListItems(xJOKER10x)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(140701)
-    for i, v in ipairs(xJOKER10x) do
-        xJOKER10x[i].flags = gg.TYPE_DWORD
-        xJOKER10x[i].value = '0'
-        xJOKER10x[i].freeze = true
-    end
-    gg.addListItems(xJOKER10x)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("70658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("70658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("70658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(140701)
-    for i, v in ipairs(xJOKER10x) do
-        xJOKER10x[i].flags = gg.TYPE_DWORD
-        xJOKER10x[i].value = '0'
-        xJOKER10x[i].freeze = true
-    end
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(140701)
-    for i, v in ipairs(xJOKER10x) do
-        xJOKER10x[i].flags = gg.TYPE_DWORD
-        xJOKER10x[i].value = '0'
-        xJOKER10x[i].freeze = true
-    end
-    gg.addListItems(xJOKER10x)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(140701)
-    for i, v in ipairs(xJOKER10x) do
-        xJOKER10x[i].flags = gg.TYPE_DWORD
-        xJOKER10x[i].value = '0'
-        xJOKER10x[i].freeze = true
-    end
-    gg.addListItems(xJOKER10x)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(140701)
-    for i, v in ipairs(xJOKER10x) do
-        xJOKER10x[i].flags = gg.TYPE_DWORD
-        xJOKER10x[i].value = '0'
-        xJOKER10x[i].freeze = true
-    end
-    gg.addListItems(xJOKER10x)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(140701)
+gg.getResults(140701)
+gg.addListItems({})
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("1801989935;1768710958;1920233061;1919905893::14", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("1801989935;1768710958;1920233061;1919905893", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("1801989935;1768710958;1920233061;1919905893", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(140701)
+gg.getResults(140701)
+gg.addListItems({})
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1130852172;1852139884::14", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("1130852172;1852139884", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("1130852172;1852139884", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(140701)
+gg.getResults(140701)
+gg.addListItems({})
+gg.clearResults()
+gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResultsCount()
+gg.getResults(1)
+gg.addListItems({[1] = {address = 3153762356,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762372,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762376,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762536,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762540,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762544,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762638,flags = 4,freeze = true,value = 119}})
+gg.addListItems({[1] = {address = 3153762738,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762788,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762808,flags = 4,freeze = true,value = 4451}})
+gg.addListItems({[1] = {address = 3153762908,flags = 4,freeze = true,value = 0}})
+gg.addListItems({[1] = {address = 3153762918,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762968,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153763058,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153763258,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153763408,flags = 4,freeze = true,value = 70086}})
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("67109633", gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.editAll("4452", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResultsCount()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(140701)
+gg.getResults(140701)
+gg.addListItems({})
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("1801989935;1768710958;1920233061;1919905893::14", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("1801989935;1768710958;1920233061;1919905893", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("1801989935;1768710958;1920233061;1919905893", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(140701)
+gg.getResults(140701)
+gg.addListItems({})
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1130852172;1852139884::14", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("1130852172;1852139884", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("1130852172;1852139884", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(140701)
+gg.getResults(140701)
+gg.addListItems({})
+gg.clearResults()
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo/RoleInfo.json")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Intermediate/SaveGames/JKGuestRegisterCnt.json")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo/RoleInfo.json")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Intermediate/SaveGames/JKGuestRegisterCnt.json")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo/RoleInfo.json")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Intermediate/SaveGames/JKGuestRegisterCnt.json")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo/RoleInfo.json")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Intermediate/SaveGames/JKGuestRegisterCnt.json")
+gg.setVisible(false)
 gg.alert("الجوكر تم كسر الحماية")
 clearlog()
 end
 end
 end
+
+
+
+
+function AL2()
+gg.clearResults()
+gg.setRanges(4)
+gg.searchNumber("67109377", 4, false, 536870912, 0, -1)
+gg.refineNumber("67109377", 4, false, 536870912, 0, -1)
+if gg.getResultCount() == 0 then
+gg.alert("❌❌ فشل اغلق اللعبه وحاول مره أخرى ❌❌")
+else
+local searchCount = gg.getResultCount()
+local searchResults = gg.getResults(searchCount)
+for i, v in ipairs(searchResults) do
+  v.freeze = true
+  v.flags = 4
+  v.value = 0
+end
+gg.addListItems(searchResults)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+if gg.getResultCount() == 0 then
+gg.alert("Failed Restart Game And Try , لم يتم التفعيل !! ❌")
+gg.setVisible(true)
+gg.processKill()
+os.exit()
+else
+gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+n = gg.getResultCount()
+jz = gg.getResults(n)
+for i = 1, n do
+gg.addListItems({[1] = {address = jz[i].address - 252,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = jz[i].address - 236,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = jz[i].address - 232,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = jz[i].address - 72,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = jz[i].address - 68,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = jz[i].address - 64,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = jz[i].address + 30,flags = 4,freeze = true,value = 119}})
+gg.addListItems({[1] = {address = jz[i].address + 130,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = jz[i].address + 180,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = jz[i].address + 200,flags = 4,freeze = true,value = 4451}})
+gg.addListItems({[1] = {address = jz[i].address + 300,flags = 4,freeze = true,value = 0}})
+gg.addListItems({[1] = {address = jz[i].address + 310,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = jz[i].address + 360,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = jz[i].address + 450,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = jz[i].address + 650,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = jz[i].address + 800,flags = 4,freeze = true,value = 70086}})
+end
+gg.clearResults()
+end
+gg.clearResults()
+gg.clearResults()
+gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResultsCount()
+gg.getResults(1)
+gg.addListItems({[1] = {address = 3153762356,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762372,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762376,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762536,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762540,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762544,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762638,flags = 4,freeze = true,value = 119}})
+gg.addListItems({[1] = {address = 3153762738,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762788,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762808,flags = 4,freeze = true,value = 4451}})
+gg.addListItems({[1] = {address = 3153762908,flags = 4,freeze = true,value = 0}})
+gg.addListItems({[1] = {address = 3153762918,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762968,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153763058,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153763258,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153763408,flags = 4,freeze = true,value = 70086}})
+gg.clearResults()
+gg.setRanges(4)
+gg.searchNumber("67109633", 4, false, 536870912, 0, -1)
+gg.refineNumber("67109633", 4, false, 536870912, 0, -1)
+if gg.getResultCount() == 0 then
+gg.alert("❌❌ فشل اغلق اللعبه وحاول مره أخرى ❌❌")
+else
+local searchCount = gg.getResultCount()
+local searchResults = gg.getResults(searchCount)
+for i, v in ipairs(searchResults) do
+  v.freeze = true
+  v.flags = 4
+  v.value = 0
+end
+gg.addListItems(searchResults)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("67109633", gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.editAll("4452", gg.TYPE_DWORD)
+gg.clearResults()
+gg.alert("الجوكر تم كسر الحماية")
+clearlog()
+end
+end
+end
+
 
 
 
 
 function AL3()
-gg.clearResults()
-    gg.setRanges(4)
-    gg.searchNumber("67109633", 4)
-    if gg.getResultCount() == 0 then
-    gg.alert("Failed Restart Game And Try , لم يتم التفعيل !! ❌")
-    gg.setVisible(true)
-    gg.processKill()
-    os.exit()
-    else
-    gg.getResults(50000)
-    gg.editAll("0", 4)
-    gg.clearResults()                                             
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber('"67109633"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber('"67109633"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    revert = gg.getResults(16122000, nil, nil, nil, nil, nil, nil, nil, nil)
-    local SM_XD = gg.getResults(16122000, nil, nil, nil, nil, nil, nil, nil, nil)
-    for i, v in ipairs(SM_XD) do
-    if v.flags == gg.TYPE_DWORD then
-    v.value = '"0"'
-    v.freeze = true
-    end                                     
-    end                                     
-    gg.addListItems(SM_XD)
-    SM_XD = nil
-    gg.clearResults()                                               
-    gg.clearList()
-    gg.clearResults()                                               
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber('"67109377"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber('"67109377"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    revert = gg.getResults(16122000, nil, nil, nil, nil, nil, nil, nil, nil)
-    local SXXD = gg.getResults(16122000, nil, nil, nil, nil, nil, nil, nil, nil)
-    for i, v in ipairs(SXXD) do
-    if v.flags == gg.TYPE_DWORD then
-    v.value = '"0"'
-    v.freeze = true
-    end                                     
-    end                                     
-    gg.addListItems(SXXD)
-    SXXD = nil
-    gg.clearResults()                                               
-    gg.clearList()
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-    if gg.getResultCount() == 0 then
-    else
-    gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-    n = gg.getResultCount()jz = gg.getResults(n)
-     for i =1, n do
-          gg.addListItems({
-          [1] = { address = jz[i].address - 252, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address - 236, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address - 232, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address - 72, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address - 68, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address - 64, flags = 4, freeze = true, value = 70086 } 
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 30, flags = 4, freeze = true, value = 119 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 130, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 180, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 200, flags = 4, freeze = true, value = 4451 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 300, flags = 4, freeze = true, value = 0 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 310, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 360, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 450, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 650, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 800, flags = 4, freeze = true, value = 70086 }
-          })
-          end
-          end
-          gg.clearResults()
-          gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(50000)
-    for i, v in ipairs(xJOKER10x) do
-    xJOKER10x[i].flags = gg.TYPE_DWORD
-    xJOKER10x[i].value = '0'
-    xJOKER10x[i].freeze = true
-    end
-    gg.addListItems(xJOKER10x)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(50000)
-    for i, v in ipairs(xJOKER10x) do
-    xJOKER10x[i].flags = gg.TYPE_QWORD
-    xJOKER10x[i].value = '0'
-    xJOKER10x[i].freeze = true
-    end
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(50000)
-    for i, v in ipairs(xJOKER10x) do
-    xJOKER10x[i].flags = gg.TYPE_DWORD
-    xJOKER10x[i].value = '0'
-    xJOKER10x[i].freeze = true
-    end
-    gg.addListItems(xJOKER10x)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("12547", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(50000)
-    for i, v in ipairs(xJOKER10x) do
-    xJOKER10x[i].flags = gg.TYPE_DWORD
-    xJOKER10x[i].value = '0'
-    xJOKER10x[i].freeze = true
-    end
-    gg.addListItems(xJOKER10x)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("32,039", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(50000)
-    for i, v in ipairs(xJOKER10x) do
-    xJOKER10x[i].flags = gg.TYPE_DWORD
-    xJOKER10x[i].value = '0'
-    xJOKER10x[i].freeze = true
-    end
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("16,712,197", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(50000)
-    for i, v in ipairs(xJOKER10x) do
-    xJOKER10x[i].flags = gg.TYPE_DWORD
-    xJOKER10x[i].value = '0'
-    xJOKER10x[i].freeze = true
-    end
-    gg.clearResults()
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("1401", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("1401", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("1401", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(140701)
-    for i, v in ipairs(xJOKER10x) do
-        xJOKER10x[i].flags = gg.TYPE_DWORD
-        xJOKER10x[i].value = '0'
-        xJOKER10x[i].freeze = true
-    end
-    gg.addListItems(xJOKER10x)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(140701)
-    for i, v in ipairs(xJOKER10x) do
-        xJOKER10x[i].flags = gg.TYPE_QWORD
-        xJOKER10x[i].value = '0'
-        xJOKER10x[i].freeze = true
-    end
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(140701)
-    for i, v in ipairs(xJOKER10x) do
-        xJOKER10x[i].flags = gg.TYPE_DWORD
-        xJOKER10x[i].value = '0'
-        xJOKER10x[i].freeze = true
-    end
-    gg.addListItems(xJOKER10x)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(140701)
-    for i, v in ipairs(xJOKER10x) do
-        xJOKER10x[i].flags = gg.TYPE_DWORD
-        xJOKER10x[i].value = '0'
-        xJOKER10x[i].freeze = true
-    end
-    gg.addListItems(xJOKER10x)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("70658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("70658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("70658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(140701)
-    for i, v in ipairs(xJOKER10x) do
-        xJOKER10x[i].flags = gg.TYPE_DWORD
-        xJOKER10x[i].value = '0'
-        xJOKER10x[i].freeze = true
-    end
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(140701)
-    for i, v in ipairs(xJOKER10x) do
-        xJOKER10x[i].flags = gg.TYPE_DWORD
-        xJOKER10x[i].value = '0'
-        xJOKER10x[i].freeze = true
-    end
-    gg.addListItems(xJOKER10x)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(140701)
-    for i, v in ipairs(xJOKER10x) do
-        xJOKER10x[i].flags = gg.TYPE_QWORD
-        xJOKER10x[i].value = '0'
-        xJOKER10x[i].freeze = true
-    end
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(140701)
-    for i, v in ipairs(xJOKER10x) do
-        xJOKER10x[i].flags = gg.TYPE_DWORD
-        xJOKER10x[i].value = '0'
-        xJOKER10x[i].freeze = true
-    end
-    gg.addListItems(xJOKER10x)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(140701)
-    for i, v in ipairs(xJOKER10x) do
-        xJOKER10x[i].flags = gg.TYPE_DWORD
-        xJOKER10x[i].value = '0'
-        xJOKER10x[i].freeze = true
-    end
-    gg.addListItems(xJOKER10x)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.sleep(1401)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(140701)
-    for i, v in ipairs(xJOKER10x) do
-        xJOKER10x[i].flags = gg.TYPE_DWORD
-        xJOKER10x[i].value = '0'
-        xJOKER10x[i].freeze = true
-    end
-    gg.addListItems(xJOKER10x)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(140701)
-    for i, v in ipairs(xJOKER10x) do
-        xJOKER10x[i].flags = gg.TYPE_QWORD
-        xJOKER10x[i].value = '0'
-        xJOKER10x[i].freeze = true
-    end
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(140701)
-    for i, v in ipairs(xJOKER10x) do
-        xJOKER10x[i].flags = gg.TYPE_DWORD
-        xJOKER10x[i].value = '0'
-        xJOKER10x[i].freeze = true
-    end
-    gg.addListItems(xJOKER10x)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(140701)
-    for i, v in ipairs(xJOKER10x) do
-        xJOKER10x[i].flags = gg.TYPE_DWORD
-        xJOKER10x[i].value = '0'
-        xJOKER10x[i].freeze = true
-    end
-    gg.addListItems(xJOKER10x)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("70658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("70658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("70658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(140701)
-    for i, v in ipairs(xJOKER10x) do
-        xJOKER10x[i].flags = gg.TYPE_DWORD
-        xJOKER10x[i].value = '0'
-        xJOKER10x[i].freeze = true
-    end
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(140701)
-    for i, v in ipairs(xJOKER10x) do
-        xJOKER10x[i].flags = gg.TYPE_DWORD
-        xJOKER10x[i].value = '0'
-        xJOKER10x[i].freeze = true
-    end
-    gg.addListItems(xJOKER10x)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(140701)
-    for i, v in ipairs(xJOKER10x) do
-        xJOKER10x[i].flags = gg.TYPE_QWORD
-        xJOKER10x[i].value = '0'
-        xJOKER10x[i].freeze = true
-    end
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(140701)
-    for i, v in ipairs(xJOKER10x) do
-        xJOKER10x[i].flags = gg.TYPE_DWORD
-        xJOKER10x[i].value = '0'
-        xJOKER10x[i].freeze = true
-    end
-    gg.addListItems(xJOKER10x)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.refineNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(140701)
-    for i, v in ipairs(xJOKER10x) do
-        xJOKER10x[i].flags = gg.TYPE_DWORD
-        xJOKER10x[i].value = '0'
-        xJOKER10x[i].freeze = true
-    end
-    gg.addListItems(xJOKER10x)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-    gg.setVisible(false)
-    gg.clearResults()
-gg.alert("الجوكر تم كسر الحماية")
 clearlog()
+gg.clearResults()
+gg.setRanges(4)
+gg.searchNumber("67109377", 4, false, 536870912, 0, -1)
+gg.refineNumber("67109377", 4, false, 536870912, 0, -1)
+if gg.getResultCount() == 0 then
+gg.alert("❌❌ فشل اغلق اللعبه وحاول مره أخرى ❌❌\n تأكد  من العبه جهازك اندرويد 10 نزل لعبه 32bit")
+gg.setVisible(true)
+gg.processKill()
+os.exit()
+else
+local searchCount = gg.getResultCount()
+local searchResults = gg.getResults(searchCount)
+for i, v in ipairs(searchResults) do
+  v.freeze = true
+  v.flags = 4
+  v.value = 0
+end
+gg.addListItems(searchResults)
+gg.clearResults()
+gg.setRanges(4)
+gg.searchNumber("67109633", 4, false, 536870912, 0, -1)
+gg.refineNumber("67109633", 4, false, 536870912, 0, -1)
+if gg.getResultCount() == 0 then
+gg.alert("❌❌ فشل اغلق اللعبه وحاول مره أخرى ❌❌\n تأكد  من العبه جهازك اندرويد 10 نزل لعبه 32bit")
+gg.setVisible(true)
+gg.processKill()
+os.exit()
+else
+local searchCount = gg.getResultCount()
+local searchResults = gg.getResults(searchCount)
+for i, v in ipairs(searchResults) do
+  v.freeze = true
+  v.flags = 4
+  v.value = 0
+end
+gg.addListItems(searchResults)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_DATA)
+gg.searchNumber("-1.3039565e21;-3.6907917e20;-1.3620364e28;-3.6893509e20:13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("-1.3620364e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_DATA)
+gg.searchNumber("-5.8454592e27;-5.7318526e27;-1.3620364e28:9", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("-1.3620364e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("136,303", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("67,109,633;196,867:50", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.searchNumber("67,109,377;70,658:200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("70,658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("132,098", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("131,586", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("65,536;458,752;393,216:521", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("19,507", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("19,168", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("550292,01", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.clearResults()
+gg.searchNumber("131586", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(13122002)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.clearResults()
+gg.searchNumber("67598982", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.setVisible(false)
+gg.setVisible(false)
+revert = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.searchNumber("67598981", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.setVisible(false)
+gg.setVisible(false)
+revert = gg.getResults(50000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("262,403", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.setVisible(false)
+gg.setVisible(false)
+revert = gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, i in ipairs((gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil))) do
+if i.flags == gg.TYPE_DWORD then
+i.value = "0"
+i.freeze = true
 end
 end
+gg.clearResults()
+gg.alert("الجوكر تم كسر الحماية")
+end
+end
+end
+
 
 
 
@@ -1793,346 +1014,19 @@ end
 
 function krr1()
 clearlog()
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24",16,false,536870912,0,-1)
-    if gg.getResultsCount() == 0 then
-    gg.alert("Failed Restart Game And Try , لم يتم التفعيل !! ❌")
-    gg.setVisible(true)
-    gg.processKill()
-    os.exit()
-    else
-    gg.searchNumber("2.2958874e-41",16,false,536870912,0,-1)
-    resultsCount = gg.getResultsCount()
-    results = gg.getResults(resultsCount)
-    for ChiTaM = 1, resultsCount  do
-            gg.addListItems({[1] = {address = results[ChiTaM].address - 252,flags = 4,freeze = true,value = 70086}})
-            gg.addListItems({[1] = {address = results[ChiTaM].address - 236,flags = 4,freeze = true,value = 70086}})
-            gg.addListItems({[1] = {address = results[ChiTaM].address - 232,flags = 4,freeze = true,value = 70086}})
-            gg.addListItems({[1] = {address = results[ChiTaM].address - 72,flags = 4,freeze = true,value = 70086}})
-            gg.addListItems({[1] = {address = results[ChiTaM].address - 68,flags = 4,freeze = true,value = 70086}})
-            gg.addListItems({[1] = {address = results[ChiTaM].address - 64,flags = 4,freeze = true,value = 70086}})
-            gg.addListItems({[1] = {address = results[ChiTaM].address + 30,flags = 4,freeze = true,value = 119}})
-            gg.addListItems({[1] = {address = results[ChiTaM].address + 130,flags = 4,freeze = true,value = 70086}})
-            gg.addListItems({[1] = {address = results[ChiTaM].address + 180,flags = 4,freeze = true,value = 70086}})
-            gg.addListItems({[1] = {address = results[ChiTaM].address + 200,flags = 4,freeze = true,value = 4451}})
-            gg.addListItems({[1] = {address = results[ChiTaM].address + 300,flags = 4,freeze = true,value = 0}})
-            gg.addListItems({[1] = {address = results[ChiTaM].address + 310,flags = 4,freeze = true,value = 70086}})
-            gg.addListItems({[1] = {address = results[ChiTaM].address + 360,flags = 4,freeze = true,value = 70086}})
-            gg.addListItems({[1] = {address = results[ChiTaM].address + 450,flags = 4,freeze = true,value = 70086}})
-            gg.addListItems({[1] = {address = results[ChiTaM].address + 650,flags = 4,freeze = true,value = 70086}})
-            gg.addListItems({[1] = {address = results[ChiTaM].address + 800,flags = 4,freeze = true,value = 70086}})   
-           gg.clearResults()     
-          gg.addListItems(gg.getListItems())
-          gg.toast("🛡Activated🛡")
-        end
-      end
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("70658",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("65795",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("135682",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("131331",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("262403",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("134659",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("327939",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("204803",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("135426", 4)
-     gg.getResults(5000)
-     gg.editAll("0", 4)
-     gg.clearResults()
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("144387",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("204803",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("131586",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("131842",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("132098",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("196867",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("133634",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("134402",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("459011",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("134914",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("131330",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("393475",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("135938",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.setRanges(gg.REGION_C_ALLOC)
-     gg.searchNumber("135170",4)
-     gg.getResults(5000)
-     gg.editAll("0",4)
-     gg.toast("ALJOKER")
-     clearlog()
-     gg.clearResults()
-     gg.clearResults()
-    gg.toast("ALJOKER")
-    clearlog()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("12547",4)
-    gg.getResults(5000)
-    gg.editAll("0",4)
-    gg.clearResults()
-    gg.toast("ALJOKER")
-    clearlog()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("67109633",4)
-    gg.getResults(5000)
-    gg.editAll("67109633",4)
-    gg.clearResults()
-    gg.clearResults()
-    gg.toast("ALJOKER")
-    clearlog()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("67109377",4)
-    gg.getResults(5000)
-    gg.editAll("67109377",4)
-    gg.clearResults()
-    gg.toast("ALJOKER")
-    clearlog()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("67109633",4)
-    gg.getResults(5000)
-    gg.editAll("0",4)
-    gg.clearResults()
-    gg.toast("ALJOKER")
-    clearlog()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("131586",4)
-    gg.getResults(5000)
-    gg.editAll("0",4)
-    gg.clearResults()
-    gg.toast("ALJOKER")
-    clearlog()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("12547",4)
-    gg.getResults(5000)
-    gg.editAll("0",4)
-    gg.clearResults()
-    gg.toast("ALJOKER")
-    clearlog()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("11082001",4)
-    gg.getResults(5000)
-    gg.editAll("0",4)
-    gg.clearResults()
-    gg.toast("ALJOKER")
-    clearlog()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("133378",4)
-    gg.getResults(5000)
-    gg.editAll("0",4)
-    gg.toast("ALJOKER")
-    clearlog()
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("134658",4)
-    gg.getResults(5000)
-    gg.editAll("0",4)
-    gg.toast("ALJOKER")
-    clearlog()
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("131.072",4)
-    gg.getResults(5000)
-    gg.editAll("0",4)
-    gg.toast("ALJOKER")
-    clearlog()
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("67.043.328",4)
-    gg.getResults(5000)
-    gg.editAll("0",4)
-    gg.toast("ALJOKER")
-    clearlog()
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("66.977.792",4)
-    chitam = gg.getResults(5000)
-    gg.addListItems(chitam)
-    gg.toast("ALJOKER")
-    clearlog()
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("196.608",4)
-    chitam = gg.getResults(5000)
-    gg.addListItems(chitam)
-    gg.toast("ALJOKER")
-    clearlog()
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("4.128.768",4)
-    chitam = gg.getResults(5000)
-    gg.addListItems(chitam)
-    gg.toast("ALJOKER")
-    clearlog()
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("2.031.616",4)
-    chitam = gg.getResults(5000)
-    gg.addListItems(chitam)
-    clearlog()
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("16.777.216",4)
-    chitam = gg.getResults(5000)
-    gg.addListItems(chitam)
-    gg.toast("ALJOKER")
-    clearlog()
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("134.218.241",4)
-    chitam = gg.getResults(5000)
-    gg.addListItems(chitam)
-    gg.toast("ALJOKER")
-    clearlog()
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("65.535",4)
-    chitam = gg.getResults(5000)
-    gg.addListItems(chitam)
-    gg.clearResults()
-    gg.alert("الجوكر تم كسر الحماية")
-    clearlog()
-    end
-
-
-
-
-
-
-function krr2()
-clearlog()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResultsCount()
 gg.clearResults()
 gg.setRanges(4)
 gg.searchNumber("67109377", 4, false, 536870912, 0, -1)
 gg.refineNumber("67109377", 4, false, 536870912, 0, -1)
 if gg.getResultCount() == 0 then
 gg.alert("❌❌ فشل اغلق اللعبه وحاول مره أخرى ❌❌\n تأكد  من العبه جهازك اندرويد 10 نزل لعبه 32bit")
+gg.setVisible(true)
+gg.processKill()
+os.exit()
 else
 local searchCount = gg.getResultCount()
 local searchResults = gg.getResults(searchCount)
@@ -2148,6 +1042,9 @@ gg.searchNumber("67109633", 4, false, 536870912, 0, -1)
 gg.refineNumber("67109633", 4, false, 536870912, 0, -1)
 if gg.getResultCount() == 0 then
 gg.alert("❌❌ فشل اغلق اللعبه وحاول مره أخرى ❌❌\n تأكد  من العبه جهازك اندرويد 10 نزل لعبه 32bit")
+gg.setVisible(true)
+gg.processKill()
+os.exit()
 else
 local searchCount = gg.getResultCount()
 local searchResults = gg.getResults(searchCount)
@@ -2158,123 +1055,110 @@ for i, v in ipairs(searchResults) do
 end
 gg.addListItems(searchResults)
 gg.clearResults()
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-    if gg.getResultCount() == 0 then
-    else
-    gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-    n = gg.getResultCount()jz = gg.getResults(n)
-     for i =1, n do
-          gg.addListItems({
-          [1] = { address = jz[i].address - 252, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address - 236, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address - 232, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address - 72, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address - 68, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address - 64, flags = 4, freeze = true, value = 70086 } 
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 30, flags = 4, freeze = true, value = 119 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 130, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 180, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 200, flags = 4, freeze = true, value = 4451 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 300, flags = 4, freeze = true, value = 0 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 310, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 360, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 450, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 650, flags = 4, freeze = true, value = 70086 }
-          })
-          gg.addListItems({
-          [1] = { address = jz[i].address + 800, flags = 4, freeze = true, value = 70086 }
-          })
-          end
-          end
-          gg.clearResults()
-          gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("133378", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(50000)
-    for i, v in ipairs(xJOKER10x) do
-    xJOKER10x[i].flags = gg.TYPE_DWORD
-    xJOKER10x[i].value = '0'
-    xJOKER10x[i].freeze = true
-    end
-    gg.addListItems(xJOKER10x)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(50000)
-    for i, v in ipairs(xJOKER10x) do
-    xJOKER10x[i].flags = gg.TYPE_QWORD
-    xJOKER10x[i].value = '0'
-    xJOKER10x[i].freeze = true
-    end
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("134914", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(50000)
-    for i, v in ipairs(xJOKER10x) do
-    xJOKER10x[i].flags = gg.TYPE_DWORD
-    xJOKER10x[i].value = '0'
-    xJOKER10x[i].freeze = true
-    end
-    gg.addListItems(xJOKER10x)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("12547", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(50000)
-    for i, v in ipairs(xJOKER10x) do
-    xJOKER10x[i].flags = gg.TYPE_DWORD
-    xJOKER10x[i].value = '0'
-    xJOKER10x[i].freeze = true
-    end
-    gg.addListItems(xJOKER10x)
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("32,039", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(50000)
-    for i, v in ipairs(xJOKER10x) do
-    xJOKER10x[i].flags = gg.TYPE_DWORD
-    xJOKER10x[i].value = '0'
-    xJOKER10x[i].freeze = true
-    end
-    gg.clearResults()
-    gg.setRanges(gg.REGION_C_ALLOC)
-    gg.searchNumber("16,712,197", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    local xJOKER10x = gg.getResults(50000)
-    for i, v in ipairs(xJOKER10x) do
-    xJOKER10x[i].flags = gg.TYPE_DWORD
-    xJOKER10x[i].value = '0'
-    xJOKER10x[i].freeze = true
-    end
-    gg.clearResults()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(140701)
+gg.getResults(140701)
+gg.addListItems({})
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("1801989935;1768710958;1920233061;1919905893::14", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("1801989935;1768710958;1920233061;1919905893", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("1801989935;1768710958;1920233061;1919905893", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(140701)
+gg.getResults(140701)
+gg.addListItems({})
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1130852172;1852139884::14", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("1130852172;1852139884", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("1130852172;1852139884", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(140701)
+gg.getResults(140701)
+gg.addListItems({})
+gg.clearResults()
+gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResultsCount()
+gg.getResults(1)
+gg.addListItems({[1] = {address = 3153762356,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762372,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762376,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762536,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762540,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762544,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762638,flags = 4,freeze = true,value = 119}})
+gg.addListItems({[1] = {address = 3153762738,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762788,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762808,flags = 4,freeze = true,value = 4451}})
+gg.addListItems({[1] = {address = 3153762908,flags = 4,freeze = true,value = 0}})
+gg.addListItems({[1] = {address = 3153762918,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153762968,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153763058,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153763258,flags = 4,freeze = true,value = 70086}})
+gg.addListItems({[1] = {address = 3153763408,flags = 4,freeze = true,value = 70086}})
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("67109633", gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.editAll("4452", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResultsCount()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(140701)
+gg.getResults(140701)
+gg.addListItems({})
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("1801989935;1768710958;1920233061;1919905893::14", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("1801989935;1768710958;1920233061;1919905893", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("1801989935;1768710958;1920233061;1919905893", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(140701)
+gg.getResults(140701)
+gg.addListItems({})
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1130852172;1852139884::14", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("1130852172;1852139884", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.refineNumber("1130852172;1852139884", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(140701)
+gg.getResults(140701)
+gg.addListItems({})
+gg.clearResults()
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo/RoleInfo.json")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Intermediate/SaveGames/JKGuestRegisterCnt.json")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo/RoleInfo.json")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Intermediate/SaveGames/JKGuestRegisterCnt.json")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo/RoleInfo.json")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Intermediate/SaveGames/JKGuestRegisterCnt.json")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo/RoleInfo.json")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Intermediate/SaveGames/JKGuestRegisterCnt.json")
+gg.setVisible(false)
+gg.alert("الجوكر تم كسر الحماية")
+clearlog()
+end
+end
+end
+
+
+
+
+
+function krr2()
+clearlog()
+ gg.clearResults()
     gg.setVisible(false)
     gg.clearResults()
     gg.setVisible(false)
@@ -2373,6 +1257,19 @@ gg.clearResults()
     gg.setVisible(false)
     gg.clearResults()
     gg.setRanges(gg.REGION_C_ALLOC)
+    gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+    gg.refineNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+    local xJOKER10x = gg.getResults(140701)
+    for i, v in ipairs(xJOKER10x) do
+        xJOKER10x[i].flags = gg.TYPE_QWORD
+        xJOKER10x[i].value = '0'
+        xJOKER10x[i].freeze = true
+    end
+    gg.clearResults()
+    gg.setVisible(false)
+    gg.clearResults()
+    gg.setRanges(gg.REGION_C_ALLOC)
     gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.refineNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
@@ -2415,6 +1312,19 @@ gg.clearResults()
         xJOKER10x[i].freeze = true
     end
     gg.addListItems(xJOKER10x)
+    gg.clearResults()
+    gg.setVisible(false)
+    gg.clearResults()
+    gg.setRanges(gg.REGION_C_ALLOC)
+    gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+    gg.refineNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+    local xJOKER10x = gg.getResults(140701)
+    for i, v in ipairs(xJOKER10x) do
+        xJOKER10x[i].flags = gg.TYPE_QWORD
+        xJOKER10x[i].value = '0'
+        xJOKER10x[i].freeze = true
+    end
     gg.clearResults()
     gg.setVisible(false)
     gg.clearResults()
@@ -2474,6 +1384,19 @@ gg.clearResults()
     gg.setVisible(false)
     gg.clearResults()
     gg.setRanges(gg.REGION_C_ALLOC)
+    gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+    gg.refineNumber("67109633", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+    local xJOKER10x = gg.getResults(140701)
+    for i, v in ipairs(xJOKER10x) do
+        xJOKER10x[i].flags = gg.TYPE_QWORD
+        xJOKER10x[i].value = '0'
+        xJOKER10x[i].freeze = true
+    end
+    gg.clearResults()
+    gg.setVisible(false)
+    gg.clearResults()
+    gg.setRanges(gg.REGION_C_ALLOC)
     gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.searchNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
     gg.refineNumber("134658", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
@@ -2509,8 +1432,6 @@ gg.clearResults()
     gg.clearResults()
 gg.alert("الجوكر تم كسر الحماية")
 clearlog()
-end
-end
 end
 
 
