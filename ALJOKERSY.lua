@@ -1655,7 +1655,6 @@ end
 
 
 function krr1()
-clearlog()
 gg.clearResults()
 gg.setRanges(gg.REGION_C_ALLOC)
 gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
@@ -1789,7 +1788,6 @@ os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowT
 os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Intermediate/SaveGames/JKGuestRegisterCnt.json")
 gg.setVisible(false)
 gg.alert("الجوكر تم كسر الحماية")
-clearlog()
 end
 end
 end
